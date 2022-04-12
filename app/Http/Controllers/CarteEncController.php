@@ -44,11 +44,6 @@ class CarteEncController extends Controller
         $carteEtudiant = new CarteEtudiant();
         $carteEtudiant->nomEtudiant = $request->get('nomEtudiantFormulaire');
 
-        $request->validate(['fichier' => 'required|file']) ;
-        //dd($request->file('fichier')) ;
-        //$path = $request->file('fichier')->store('public') ;
-        //dd($path) ;
-
         $nomFichierAttache = time().request()->fichier->getClientOriginalName();
 
         //dd($nomFichierAttache) ;

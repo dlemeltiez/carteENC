@@ -29,6 +29,7 @@ Utilisez une adresse email permanente pour recevoir vos courriels
                 <label for="nomEtudiantFormulaire"><span style="color:red;">*</span> Nom étudiant:</label>
                 <input required="required" type="text" class="form-control" name="nomEtudiantFormulaire">
             </div>
+            <div><br></div>
 
             <div class="col-span-6 sm:col-span-3">
                 <label for="prenomEtudiantFormulaire"><span style="color:red;">*</span> Prénom étudiant:</label>
